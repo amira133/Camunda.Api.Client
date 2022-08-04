@@ -324,6 +324,18 @@ namespace Camunda.Api.Client.UserTask
         /// </summary>
         public bool? WithoutCandidateGroups;
 
+
+
+        /// <summary>
+        /// Match all variable names in this query case-insensitively. If set variableName and variablename are treated as equal.
+        /// </summary>
+        public bool? VariableNamesIgnoreCase;
+
+        /// <summary>
+        /// Match all variable values in this query case-insensitively. If set variableValue and variablevalue are treated as equal.
+        /// </summary>
+        public bool? variableValuesIgnoreCase;
+
         /// <summary>
         /// Array of criteria to sort the result by. The position in the array identifies the rank of an ordering, i.e. whether it is primary, secondary, etc.
         /// </summary>
@@ -371,6 +383,7 @@ namespace Camunda.Api.Client.UserTask
         InstanceId,
         CaseInstanceId,
         DueDate,
+        followUpDate,
         ExecutionId,
         CaseExecutionId,
         Assignee,
