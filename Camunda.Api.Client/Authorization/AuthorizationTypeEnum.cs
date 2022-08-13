@@ -11,19 +11,19 @@ namespace Camunda.Api.Client.Authorization
         /// global
         /// </summary>
         [EnumMember(Value = "0")]
-        Global = 0,
+        Global ,
 
         /// <summary>
         /// grant
         /// </summary
         [EnumMember(Value = "1")]
-        Grant = 1,
+        Grant ,
 
         /// <summary>
         /// revoke
         /// </summary>
         [EnumMember(Value = "2")]
-        Revoke = 2,
+        Revoke ,
     }
 
 }
