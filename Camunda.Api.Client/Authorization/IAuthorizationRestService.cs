@@ -20,7 +20,7 @@ namespace Camunda.Api.Client.Authorization
         [Get("/authorization/{id}")]
         Task<AuthorizationInfo> Get(string id);
 
-        [Get("authorization/check")]
+        [Get("/authorization/check")]
         Task<AuthorizationCheckResult> Check([Body] AuthorizationCheckQuery query);
 
         [Post("/authorization/create")]
