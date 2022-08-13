@@ -15,7 +15,7 @@ namespace Camunda.Api.Client.Authorization
         /// <summary>
         /// Filter by authorization type. (0=global, 1=grant, 2=revoke). See the User Guide for more information about authorization types.
         /// </summary>
-        public AuthorizationTypeEnum Type;
+        public int Type;
 
         /// <summary>
         /// Filter by a comma-separated list of userIds.

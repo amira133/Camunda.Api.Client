@@ -14,7 +14,7 @@ namespace Camunda.Api.Client.Authorization
         /// <summary>
         /// The type of the authorization. (0=global, 1=grant, 2=revoke).
         /// </summary>
-        public AuthorizationTypeEnum Type;
+        public int Type;
 
         /// <summary>
         /// An array of Strings holding the permissions provided by this authorization.
